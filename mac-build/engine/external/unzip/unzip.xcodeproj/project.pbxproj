@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		AC6FEC71B3CE497885BF3BE1 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D79545E8040644F787E249D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				AFDE5205CF8975571AA5AF09 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		B6257A242AD74A07BEB72B58 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F65F4D3ADB9F4C3BA0DCA1F9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				37D674C99F3397969D6E4212 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				47827855310F4760ACE0AA2E /* PBXTargetDependency */,
+				148C01CB906146FA9AFBB419 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5904A700C8FC4EA3A6811C30 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = 14EA8096FEF84D45946547A3 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		8A288A314A7848FB85553DA0 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = 642C02E1AE12477AAB75D291 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/ioapi.cpp */; };
+		911D5F42724541B292195188 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = E0D5C601BA2C4F49987CDE7D /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/unzip.cpp */; };
+		9961AC951F044A2793BF2FA3 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 203695D5FBAA47B2ABEC5A38 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		A3B429B4BB1F4A658DADCE27 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C16A61E5AD7F4D518F54E479 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D2DFD82801334EAE9A49983A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E9112B68898B4F77A56CC535 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		5E500016B2D74A78955F419E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB30FC06112B481F9A6E15A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB23C07B795E457E9911E12C;
+			remoteInfo = ext_unzip;
+		};
+		C3A0EA43B91947B9BB9C40BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB30FC06112B481F9A6E15A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC6FEC71B3CE497885BF3BE1;
+			remoteInfo = ZERO_CHECK;
+		};
+		DD1924B169D44CA38C083924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB30FC06112B481F9A6E15A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC6FEC71B3CE497885BF3BE1;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14EA8096FEF84D45946547A3 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		203695D5FBAA47B2ABEC5A38 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		22CD32BE39604950AD211803 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		43149575FAFE47588B791CB0 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		642C02E1AE12477AAB75D291 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		E0D5C601BA2C4F49987CDE7D /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6337B9F515C4A7C87E4A4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3A079835AE48CF98880FBB = {
+			isa = PBXGroup;
+			children = (
+				6D699746EF714A4A9A19FDCE /* External */,
+				2E517A3488B9484782CD2B68 /* ALL_BUILD */,
+				F257DA813D0B456EAE70FCD3 /* Products */,
+				BD0F6522B21C4BADB5D7CF94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E517A3488B9484782CD2B68 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C3212897C0E94FC9BAA8A2ED /* CMake Rules */,
+				22CD32BE39604950AD211803 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4F8AD6CF77A64D6CA976AEF7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				642C02E1AE12477AAB75D291 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/ioapi.cpp */,
+				14EA8096FEF84D45946547A3 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/ioapi_mem.cpp */,
+				E0D5C601BA2C4F49987CDE7D /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6D699746EF714A4A9A19FDCE /* External */ = {
+			isa = PBXGroup;
+			children = (
+				D0C44F235CD4473D8DA10B5C /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		BD0F6522B21C4BADB5D7CF94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3212897C0E94FC9BAA8A2ED /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D0C44F235CD4473D8DA10B5C /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				4F8AD6CF77A64D6CA976AEF7 /* Source Files */,
+				203695D5FBAA47B2ABEC5A38 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		F257DA813D0B456EAE70FCD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43149575FAFE47588B791CB0 /* ext_unzip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB23C07B795E457E9911E12C /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F5DDB5E52245ADA3C6E8BB /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				8C0CDA0C454D4AAEB1C04628 /* Sources */,
+				D6337B9F515C4A7C87E4A4C0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89B2F611C9374574BEB4C93B /* PBXTargetDependency */,
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = 43149575FAFE47588B791CB0 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB30FC06112B481F9A6E15A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 0E42C23E01334C0CA3219D17 /* Build configuration list for PBXProject "unzip" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A3B429B4BB1F4A658DADCE27 /* Debug */,
+				E9112B68898B4F77A56CC535 /* Release */,
+				C16A61E5AD7F4D518F54E479 /* MinSizeRel */,
+				D2DFD82801334EAE9A49983A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 0E3A079835AE48CF98880FBB;
+			projectDirPath = ../../../../cocos2d/external/unzip;
+			projectRoot = "";
+			targets = (
+				B6257A242AD74A07BEB72B58 /* ALL_BUILD */,
+				AC6FEC71B3CE497885BF3BE1 /* ZERO_CHECK */,
+				EB23C07B795E457E9911E12C /* ext_unzip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37D674C99F3397969D6E4212 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AFDE5205CF8975571AA5AF09 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip
+  make -f /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip
+  make -f /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip
+  make -f /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip
+  make -f /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C0CDA0C454D4AAEB1C04628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A288A314A7848FB85553DA0 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/ioapi.cpp */,
+				5904A700C8FC4EA3A6811C30 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/ioapi_mem.cpp */,
+				911D5F42724541B292195188 /* /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		148C01CB906146FA9AFBB419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC6FEC71B3CE497885BF3BE1 /* ZERO_CHECK */;
+			targetProxy = DD1924B169D44CA38C083924 /* PBXContainerItemProxy */;
+		};
+		47827855310F4760ACE0AA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB23C07B795E457E9911E12C /* ext_unzip */;
+			targetProxy = 5E500016B2D74A78955F419E /* PBXContainerItemProxy */;
+		};
+		89B2F611C9374574BEB4C93B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC6FEC71B3CE497885BF3BE1 /* ZERO_CHECK */;
+			targetProxy = C3A0EA43B91947B9BB9C40BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09F8CAC8193F4CB0AE2866DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/.,/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/zlib/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0D322180E0EF410188E482BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2B0B2DA3D271400F97DDF061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip/build";
+			};
+			name = Debug;
+		};
+		331069FF0C3A48FDA872B208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip/build";
+			};
+			name = Release;
+		};
+		35F3C3021368433395CC00F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		456BACC300A44C8786FEED1F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip/build";
+			};
+			name = MinSizeRel;
+		};
+		4D9BBD4374D14498837DBB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		61A7FA7EA0814CDF8218933C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		69AAE694E7F14B91BCEE0437 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7A36EAC79A534D32ACAABD18 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/.,/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/zlib/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		80D5D37E0010452987087CDE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8E5DF80F5C5941EC9E96821D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/.,/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/zlib/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A38C17D49CDE4AA2B6A993B7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AF6ED91C8EB64BA8944C589A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/unzip/.,/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/external/zlib/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D10EA2B7F08E45008ACAE23F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F1A33203DF0C41C88D20B908 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/mac-build/engine/external/unzip/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E42C23E01334C0CA3219D17 /* Build configuration list for PBXProject "unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0B2DA3D271400F97DDF061 /* Debug */,
+				331069FF0C3A48FDA872B208 /* Release */,
+				456BACC300A44C8786FEED1F /* MinSizeRel */,
+				F1A33203DF0C41C88D20B908 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		63F5DDB5E52245ADA3C6E8BB /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F8CAC8193F4CB0AE2866DF /* Debug */,
+				AF6ED91C8EB64BA8944C589A /* Release */,
+				8E5DF80F5C5941EC9E96821D /* MinSizeRel */,
+				7A36EAC79A534D32ACAABD18 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D79545E8040644F787E249D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F3C3021368433395CC00F3 /* Debug */,
+				61A7FA7EA0814CDF8218933C /* Release */,
+				A38C17D49CDE4AA2B6A993B7 /* MinSizeRel */,
+				80D5D37E0010452987087CDE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F65F4D3ADB9F4C3BA0DCA1F9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9BBD4374D14498837DBB79 /* Debug */,
+				0D322180E0EF410188E482BD /* Release */,
+				D10EA2B7F08E45008ACAE23F /* MinSizeRel */,
+				69AAE694E7F14B91BCEE0437 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB30FC06112B481F9A6E15A0 /* Project object */;
+}

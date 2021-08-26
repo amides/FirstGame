@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/metal/ProgramMTL.mm \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/metal/ProgramMTL.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/metal/../Program.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/metal/../Macros.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/base/CCRef.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/platform/CCPlatformMacros.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/base/ccConfig.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/platform/CCPlatformConfig.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/platform/CCPlatformDefine.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/platform/mac/CCPlatformDefine-mac.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/metal/../Types.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/metal/../ShaderCache.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/ShaderModule.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/metal/ShaderModuleMTL.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/metal/../ShaderModule.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/base/ccMacros.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/base/CCConsole.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/platform/CCStdC.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/platform/mac/CCStdC-mac.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/base/ccRandom.h

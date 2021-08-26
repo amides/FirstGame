@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/ShaderCache.cpp \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/ShaderCache.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/Macros.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/base/CCRef.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/platform/CCPlatformMacros.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/base/ccConfig.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/platform/CCPlatformConfig.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/platform/CCPlatformDefine.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/platform/mac/CCPlatformDefine-mac.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/ShaderModule.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/Types.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/Device.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/RenderPipelineDescriptor.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/VertexLayout.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/ProgramState.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/base/CCEventListenerCustom.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/base/CCEventListener.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/Program.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/RenderPassDescriptor.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/Texture.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/DepthStencilState.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/ProgramCache.h \
+  /Users/amides.rodriguez/Documents/Workspace/FirstGame/FirstGame/cocos2d/cocos/renderer/backend/DeviceInfo.h
