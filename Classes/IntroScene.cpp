@@ -18,6 +18,8 @@ USING_NS_CC;
 const int SPACESHIP_STEP = 30;
 const int SPACESHIP_LENGHT = 60;
 
+const std::string ASSETS_BASE_PATH = "../Resources/Spaceship_art_pack/";
+std::string AESTROID_BASE_PATH = ASSETS_BASE_PATH + "Aestroids/";
 const std::vector<std::string> asteroidsNames {"aestroidgrey.png", "aestroid_brown.png", "aestroid_dark.png", "aestroid_gray_2.png"};
 
 Scene* IntroScene::createScene()
@@ -70,7 +72,8 @@ bool IntroScene::init()
     this->addChild(menu, 1);
     
     //Background loading
-    auto background = Sprite::create("background.jpg");
+
+    auto background = Sprite::create(ASSETS_BASE_PATH + "Background/background.jpg");
     if (!background)
     {
         problemLoading("'background.jpg'");
@@ -84,7 +87,7 @@ bool IntroScene::init()
     }
     
     //spaceship loading
-    auto spaceShip1 = Sprite::create("1.png");
+    auto spaceShip1 = Sprite::create(ASSETS_BASE_PATH + "/Red/Red_Plane_animation/1.png");
     if (!spaceShip1)
     {
         problemLoading("'1.png'");
@@ -126,7 +129,7 @@ void IntroScene::createAestroids(float time)
     int randomFileName = rand() % asteroidsNames.size();
     int randomStartPosition = rand() % (int)visibleSize.width;
     
-    auto aestroid = Sprite::create(asteroidsNames[randomFileName].c_str());
+    auto aestroid = Sprite::create(AESTROID_BASE_PATH + asteroidsNames[randomFileName].c_str());
     if (!aestroid)
     {
         problemLoading(asteroidsNames[randomFileName].c_str());
@@ -157,8 +160,6 @@ void IntroScene::createAestroids(float time)
         auto contactListener = EventListenerPhysicsContact::create();
         contactListener->onContactBegin = CC_CALLBACK_1(IntroScene::onContactBegin, this);
         _eventDispatcher->addEventListenerWithSceneGraphPriority(contactListener, this);
-
-        return true;
     }
 }
 
@@ -260,7 +261,7 @@ void IntroScene::createBullets(const cocos2d::Vec2& shipPosition)
 {
     auto visibleSize = Director::getInstance()->getVisibleSize();
     
-    auto fireBullet = Sprite::create("bullet_red.png");
+    auto fireBullet = Sprite::create(ASSETS_BASE_PATH + "/Red/bullet_red.png");
     if (!fireBullet)
     {
         problemLoading("'bullet_red.png'");
